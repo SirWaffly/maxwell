@@ -12,9 +12,9 @@ function playbgmusic() {
 }
 
 function changeBg() {
-    var x = Math.floor(Math.random() * 256);
-    var y = Math.floor(Math.random() * 256);
-    var z = Math.floor(Math.random() * 256);
+    var x = Math.floor(Math.random() * 100) + 156;
+    var y = Math.floor(Math.random() * 100) + 156;
+    var z = Math.floor(Math.random() * 100) + 156;
     var bgColor = "rgb(" + x + "," + y + "," + z + ")";  
     document.body.style.background = bgColor;
 }
